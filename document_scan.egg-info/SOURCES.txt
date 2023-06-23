@@ -1,0 +1,11 @@
+setup.py
+NN/__init__.py
+NN/letter_recognition.py
+document_scan.egg-info/PKG-INFO
+document_scan.egg-info/SOURCES.txt
+document_scan.egg-info/dependency_links.txt
+document_scan.egg-info/requires.txt
+document_scan.egg-info/top_level.txt
+opencv/__init__.py
+opencv/document_recognition.py
+test/test.py

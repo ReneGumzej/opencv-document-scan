@@ -1,0 +1,16 @@
+version: "3"
+services:
+  documentscan:
+    image: document-scan:latest
+    build: ./
+    command: python3 ./main.py
+    volumes:
+      - "/dev/video0:/dev/video0"
+    environment:
+      - ENABLE_MJPG_STREAMER=true
+      - CAMERA_DEV=/dev/video
+    devices:
+      - "/dev/video0:/dev/video0"
+    
+
+
